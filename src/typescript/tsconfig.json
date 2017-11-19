@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "removeComments": true,
+    "declaration": true,
+    "preserveConstEnums": true,
+    "outFile": "../../dist/mwr-lib.js",
+    "sourceMap": true
+  } ,
+  "files":[
+    "./Main.ts"
+  ]
+}

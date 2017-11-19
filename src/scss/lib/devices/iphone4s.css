@@ -1,0 +1,37 @@
+#device {
+  background: url("../images/devices/iphone/iPhone4S-white.png");
+  width: 804px;
+  height: 1477px;
+  position: absolute;
+  left: 50%;
+  margin-left: -402px;
+  top: 50%;
+  margin-top: -766px;
+  z-index: -900;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5); }
+
+#device #statusbar {
+  background: #000 url("../images/devices/iphone/iPhone4S-statusbar.png");
+  width: 640px;
+  height: 40px;
+  position: absolute;
+  left: 80px;
+  top: 231px;
+  z-index: 900; }
+
+#app {
+  background: #000;
+  position: absolute;
+  left: 80px;
+  top: 232px;
+  height: 960px;
+  width: 640px;
+  overflow: hidden;
+  z-index: 1; }
+
+#app .screen img {
+  max-width: 640px; }
+
+/*# sourceMappingURL=iphone4s.css.map */

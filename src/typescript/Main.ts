@@ -1,0 +1,36 @@
+///<reference path="../lib/custom.d.ts" />
+///<reference path="../lib/angular.d.ts" />
+///<reference path="../lib/flipsnap.d.ts" />
+///<reference path="../lib/greensock.d.ts" />
+///<reference path="../lib/iscroll-5.d.ts" />
+///<reference path="../lib/jquery.d.ts" />
+///<reference path="../lib/jquery.custom.d.ts" />
+///<reference path="../lib/jquery.nearest.d.ts" />
+///<reference path="../lib/jquery.stylesheet.d.ts" />
+///<reference path="../lib/socket.io-client.d.ts" />
+///<reference path="../lib/swiper.d.ts" />
+///<reference path="../lib/TypedPhoneGap.d.ts" />
+
+///<reference path="mwr/lib/data/LocalStorage.ts" />
+///<reference path="mwr/lib/enums/ScreenTypes.ts" />
+///<reference path="mwr/lib/events/CustomEventDispatcher.ts" />
+///<reference path="mwr/lib/events/DraggableEvent.ts" />
+///<reference path="mwr/lib/events/Event.ts" />
+///<reference path="mwr/lib/events/ScreenEvent.ts" />
+///<reference path="mwr/lib/hardware/Device.ts" />
+///<reference path="mwr/lib/ui/Keyboard.ts" />
+///<reference path="mwr/lib/ui/SimpleScreen.ts" />
+///<reference path="mwr/lib/ui/ViewController.ts" />
+///<reference path="mwr/lib/util/ArrayUtils.ts" />
+///<reference path="mwr/lib/util/ColorUtils.ts" />
+///<reference path="mwr/lib/util/DateUtils.ts" />
+///<reference path="mwr/lib/util/DeviceUtils.ts" />
+///<reference path="mwr/lib/util/DisplayUtils.ts" />
+///<reference path="mwr/lib/util/GUID.ts" />
+///<reference path="mwr/lib/util/Heartbeat.ts" />
+///<reference path="mwr/lib/util/NumberUtils.ts" />
+///<reference path="mwr/lib/util/Timer.ts" />
+///<reference path="mwr/lib/util/TimeUtils.ts" />
+
+TweenLite.defaultEase = Expo.easeOut;
+TweenMax.defaultEase = Expo.easeOut;
